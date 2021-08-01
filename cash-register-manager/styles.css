@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  max-width: 550px;
+  min-height: 200px;
+  margin: auto;
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: #082032;
+}
+.heading {
+  color: #fff;
+  padding: 1rem;
+}
+.description {
+  color: #fff;
+  padding: 1rem;
+  font-size: 16px;
+}
+.check-btn {
+  padding: 0.5rem 1rem;
+  display: block;
+  font-size: 1rem;
+  border: none;
+  margin: 1rem auto;
+  font-weight: bold;
+}
+#cash-error-msg,
+#bill-error-msg {
+  padding-top: 1rem;
+  color: red;
+}
+label {
+  display: block;
+  font-size: 1.3rem;
+  padding: 1.5rem 1rem 0.8rem;
+  color: #ffd371;
+}
+input {
+  width: 100%;
+  padding: 1rem;
+  height: 50px;
+  display: block;
+}
+.change-return-wrapper {
+  display: none;
+}
+table,
+th,
+td {
+  padding: 0.2rem;
+  border: 2px solid #082032;
+  border-collapse: collapse;
+  color: #53b8bb;
+  background-color: #082032;
+}
+.num-of-notes {
+  background-color: white;
+  font-weight: bold;
+}
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+th,
+td {
+  word-wrap: break-word;
+}

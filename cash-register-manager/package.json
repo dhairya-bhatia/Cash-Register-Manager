@@ -1,0 +1,11 @@
+{
+  "name": "cash-register-app",
+  "version": "1.0.0",
+  "description": "A app that can be useful for the cashier to validate, calculate and return the bill amount to the customer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dhairya",
+  "license": "ISC"
+}
